@@ -2,7 +2,7 @@ from django import forms
 from django.contrib.auth import password_validation
 from django.core.exceptions import ValidationError
 
-from .models import AdvUser, SuperRubric, SubRubric
+from .models import AdvUser
 from .apps import user_registered
 
 
